@@ -38,8 +38,9 @@ Arguments short explanation:
 python trainer.py
 ```
 * Testing
-#### inference.ipynb notebook can be used for testing model
-
+```
+inference.ipynb notebook can be used for testing the model
+```
 
 
 
