@@ -8,7 +8,7 @@
   <img width="800" height="80" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/data.png">
 </p>
 
-* Build a tokenizer for sample above custom dataset using the below code
+* Build the tokenizer for the dataset, Example above is the dataset used for the demo.
 ```
 python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer 
 --data_count 300 --ckpt_dir eng_tam --save_frequency 25 --epochs 400
