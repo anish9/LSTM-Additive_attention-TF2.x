@@ -8,7 +8,7 @@ import json
 from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
 from engine import load_config, inp_tok, out_tok, run_trainer
-from engine import checkpoint_dir, data
+from engine import checkpoint_dir, data,optimizer
 
 config = ConfigProto()
 config.gpu_options.allow_growth = True
@@ -27,7 +27,7 @@ ENCODER_MODEL = model_utils.Encoder(
 DECODER_MODEL = model_utils.Decoder(
     lstm_units=units, embed_dim=embed_dim, vocab=vocab_dec, batch_size=BATCH_SIZE
 )
-OPTIMIZER = tf.keras.optimizers.Nadam(1e-3)
+OPTIMIZER = optimizer
 DATASET = data
 
 checkpoint = tf.train.Checkpoint(
