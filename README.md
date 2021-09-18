@@ -1,12 +1,9 @@
 # seq-to-seq-tensorflow-2.x
+### There are certainly simplified two steps to start training:
+* Build config.
+* Start trainer.
 
-
-
-
-
-### There are 2 steps to be followed to create a model(any seq-to-seq text tasks)
-
-##### For demo, we will create english-tamil language translator
+##### For demo purpose, we will create english-tamil language translator. 
 
 * Build a tokenizer for custom dataset using the below code
 ```
