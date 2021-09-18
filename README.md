@@ -15,7 +15,7 @@ Arguments short explanation:
 -data_count : Number of rows to be considered for training
 
 ```
-* A config json file will be auto-generated with training config. we can edit the fields if we need.
+* A config json file will be auto-generated with training config. we can edit the fields if needed.
 ```
 {
     "csv_path": "datasets/english_tamil.csv",
