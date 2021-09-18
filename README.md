@@ -7,7 +7,8 @@
 
 * Build a tokenizer for custom dataset using the below code
 ```
-python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer --data_count 300
+python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer 
+--data_count 300 --ckpt_dir eng_tam --save_frequency 25 --epochs 400
 
 Arguments short explanation:
 -input id   : column name of source values
