@@ -4,7 +4,7 @@
 
 
 
-### There are 2 steps to be followed to create the model, either a fun chatbot or some language translators.
+### There are 2 steps to be followed to create a model(any seq-to-seq text tasks)
 * Build a tokenizer for custom dataset using the below code
 ```
 python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer --data_count 300
