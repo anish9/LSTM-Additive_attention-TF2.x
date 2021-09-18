@@ -26,8 +26,10 @@ Arguments short explanation:
     "input_vectorizer": "question.json",
     "output_vectorizer": "answer.json",
     "batch_size": 128,
-    "epochs": 60, 
-    "units": 64, #lstm units
-    "embed_size": 32 #word embedding dimension
+    "epochs": 400,
+    "units": 64,
+    "embed_size": 32,
+    "ckpt_dir": "eng_tam",
+    "save_frequency": 25
 }
 ```
