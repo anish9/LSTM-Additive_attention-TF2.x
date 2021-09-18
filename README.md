@@ -45,7 +45,7 @@ python trainer.py
 inference.ipynb notebook can be used for testing the model
 ```
 <p align="center">
-  <img width=940" height="110" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/pred.png">
+  <img width=740" height="110" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/pred.png">
 </p>
 
 
