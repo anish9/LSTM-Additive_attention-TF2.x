@@ -33,7 +33,7 @@ Arguments short explanation:
     "save_frequency": 25
 }
 ```
-* Onece the config is generated, run the following command
+* Onece the config is generated, execute trainer.py
 ```
 python trainer.py
 ```
