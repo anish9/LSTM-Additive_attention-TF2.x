@@ -36,7 +36,6 @@ Arguments short explanation:
 * Onece the config is generated, run the following command
 ```
 python trainer.py
-
 ```
 
 
