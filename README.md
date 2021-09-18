@@ -33,5 +33,13 @@ Arguments short explanation:
     "save_frequency": 25
 }
 ```
+* Onece the config is generated, run the following command
+```
+python trainer.py
+
+```
+
+
+
 
 
