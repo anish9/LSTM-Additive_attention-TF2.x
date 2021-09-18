@@ -5,10 +5,10 @@
 
 ##### For demo purpose, we will create english-tamil language translator. 
 <p align="center">
-  <img width="800" height="80" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/data.png">
+  <img width="800" height="110" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/data.png">
 </p>
 
-* Build the tokenizer for the dataset, Example above is the dataset used for the demo.
+* Build the tokenizer for the dataset, the structure of the dataset is previewed in the above image.
 ```
 python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer 
 --data_count 300 --ckpt_dir eng_tam --save_frequency 25 --epochs 400
@@ -44,6 +44,9 @@ python trainer.py
 ```
 inference.ipynb notebook can be used for testing the model
 ```
+<p align="center">
+  <img width=600" height="480" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/pred.png">
+</p>
 
 
 
