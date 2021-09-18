@@ -4,11 +4,11 @@
 * Start trainer.
 
 ##### For demo purpose, we will create english-tamil language translator. 
-
-* Build a tokenizer for custom dataset using the below code
 <p align="center">
-  <img width="500" height="180" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/data.png">
+  <img width="800" height="80" src="https://github.com/anish9/seq-to-seq-tensorflow-2.x/blob/main/assets/data.png">
 </p>
+
+* Build a tokenizer for sample above custom dataset using the below code
 ```
 python build_config.py --csv_path datasets/english_tamil.csv --input_id question --output_id answer 
 --data_count 300 --ckpt_dir eng_tam --save_frequency 25 --epochs 400
