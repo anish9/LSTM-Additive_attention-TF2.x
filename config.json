@@ -1,0 +1,14 @@
+{
+    "csv_path": "datasets/english_tamil.csv",
+    "select": 300,
+    "input_node": "question",
+    "output_node": "answer",
+    "input_vectorizer": "question.json",
+    "output_vectorizer": "answer.json",
+    "batch_size": 128,
+    "epochs": 20,
+    "units": 64,
+    "embed_size": 32,
+    "ckpt_dir": "eng_tam",
+    "save_frequency": 25
+}
