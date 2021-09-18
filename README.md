@@ -5,7 +5,8 @@
 
 
 ### There are 2 steps to be followed to create a model(any seq-to-seq text tasks)
-### For demo, we will create englih -tamil language translator
+
+##### For demo, we will create english-tamil language translator
 
 * Build a tokenizer for custom dataset using the below code
 ```
