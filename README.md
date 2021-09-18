@@ -18,3 +18,18 @@ Arguments short explanation:
 -data_count : Number of rows to be considered for training
 
 ```
+* a config json file will be auto-generated with training config. we can edit the fields if we need.
+```
+{
+    "csv_path": "datasets/english_tamil.csv",
+    "select": 300,
+    "input_node": "question",
+    "output_node": "answer",
+    "input_vectorizer": "question.json",
+    "output_vectorizer": "answer.json",
+    "batch_size": 128,
+    "epochs": 60, 
+    "units": 64, #lstm units
+    "embed_size": 32 #word embedding dimension
+}
+```
